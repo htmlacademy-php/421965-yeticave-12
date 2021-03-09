@@ -108,7 +108,6 @@ $products = [
                 <a class="promo__link" href="pages/all-lots.html"> <?= $item; ?></a>
             </li>
             <?php endforeach; ?>
-
         </ul>
     </section>
     <section class="lots">
@@ -128,11 +127,6 @@ $products = [
                     <div class="lot__state">
                         <div class="lot__rate">
                             <span class="lot__amount"><?= $category['price']; ?></span>
-                            
-
-
-
-
                             <span class="lot__cost">цена<b class="rub">р</b></span>
                         </div>
                         <div class="lot__timer timer">
